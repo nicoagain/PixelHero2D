@@ -1,7 +1,7 @@
 # This .gitignore file should be placed at the root of your Unity project directory
-#
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
-#
+
+# Unity generated folders
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -11,7 +11,6 @@
 /[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
-# They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
 
 # Recordings can get excessive in size
@@ -70,3 +69,36 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Additional project settings to ignore
+/ProjectSettings/EditorBuildSettings.asset
+/ProjectSettings/InputManager.asset
+/ProjectSettings/TagManager.asset
+/ProjectSettings/Physics2DSettings.asset
+/ProjectSettings/PhysicsManager.asset
+
+# Git specific files
+.git/
+
+# Packages folder except manifest.json
+/Packages/
+/Packages/*/
+!Packages/manifest.json
+
+# Avoid cache and temporary files
+*.bak
+*.swp
+*.swn
+*.swo
+
+# Additional logs
+*.log
+*.tlog
+*.dlog
+
+# System specific hidden files
+/.DS_Store
+/Thumbs.db
+
+# Unity Collaborate and Plastic SCM
+/[Uu]ser[Ss]ettings/
